@@ -55,19 +55,26 @@
         </div>
 
         <!-- Search bar -->
-        <label class="input input-bordered flex items-center gap-2 hidden md:block lg:block lg:w-auto xl:w-auto xl:block">
-          <input type="text" class="grow" placeholder="Search" />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 16 16"
-            fill="currentColor"
-            class="h-4 w-4 opacity-70 ">
-            <path
-              fill-rule="evenodd"
-              d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
-              clip-rule="evenodd" />
-          </svg>
-        </label>
+<div class="relative hidden md:block lg:block lg:w-auto xl:w-auto xl:block">
+  <input
+    type="text"
+    class="input input-bordered w-full pr-8"
+    placeholder="Search"
+  />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16"
+    fill="currentColor"
+    class="absolute top-1/2 right-2 transform -translate-y-1/2 h-4 w-4 opacity-70"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+      clip-rule="evenodd"
+    />
+  </svg>
+</div>
+
 
         <!-- Hamburger Icon -->
         <div class="block lg:hidden">
@@ -173,29 +180,30 @@
         </div>
       </div>
       
-      <!-- Fruit Section -->
+  <!-- Fruit Section -->
 <div class="main hidden md:flex flex-wrap justify-center text-center bg-white mt-6 p-4 md:flex-nowrap md:absolute md:top-[70%] md:left-8 md:w-[90%] md:rounded-lg lg:top-[90%] lg:w-[80%] lg:left-[9%] xl:top-[105%] xl:left-[14%] xl:w-[70%] 2xl:top-[90%]">
   <div class="m-2 md:m-4">
-    <img src="images/fruit1.png" alt="Grape" class="w-24 h-24 md:w-32 md:h-32">
+    <img src="images/fruit1.png" alt="Grape" class="w-24 h-auto md:w-32 max-w-full">
     <p>Grape</p>
   </div>
   <div class="m-2 md:m-4">
-    <img src="images/fruit2.png" alt="Orange" class="w-24 h-24 md:w-32 md:h-32">
+    <img src="images/fruit2.png" alt="Orange" class="w-24 h-auto md:w-32 max-w-full">
     <p>Orange</p>
   </div>
   <div class="m-2 md:m-4">
-    <img src="images/fruit3.png" alt="Mango" class="w-24 h-24 md:w-32 md:h-32">
+    <img src="images/fruit3.png" alt="Mango" class="w-24 h-auto md:w-32 max-w-full">
     <p>Mango</p>
   </div>
   <div class="m-2 md:m-4">
-    <img src="images/fruit4.png" alt="Strawberry" class="w-24 h-24 md:w-32 md:h-32">
+    <img src="images/fruit4.png" alt="Strawberry" class="w-24 h-auto md:w-32 max-w-full">
     <p>Strawberry</p>
   </div>
   <div class="m-2 md:m-4">
-    <img src="images/fruit5.png" alt="Mango" class="w-24 h-24 md:w-32 md:h-32">
+    <img src="images/fruit5.png" alt="Mango" class="w-24 h-auto md:w-32 max-w-full">
     <p>Mango</p>
   </div>
 </div>
+
 
       
 
